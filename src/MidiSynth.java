@@ -38,6 +38,8 @@ import javax.swing.table.*;
 import javax.swing.event.*;
 import javax.sound.midi.*;
 
+
+
 import java.util.Vector;
 import java.io.File;
 import java.io.IOException;
@@ -501,6 +503,7 @@ public class MidiSynth extends JPanel implements ControlContext {
                     if (!sm.isSelectionEmpty()) {
                         cc.row = sm.getMinSelectionIndex();
                     }
+                    System.out.println(" valeur = "+(cc.col*nRows+cc.row));
                     programChange(cc.col*nRows+cc.row);
                 }
             });

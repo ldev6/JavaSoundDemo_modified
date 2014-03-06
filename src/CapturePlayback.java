@@ -32,13 +32,17 @@
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.Line2D;
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.border.*;
+
 import java.util.Vector;
 import java.util.Enumeration;
 import java.io.*;
+
 import javax.sound.sampled.*;
+
 import java.awt.font.*;
 import java.text.*;
 
